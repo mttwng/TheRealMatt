@@ -1,0 +1,42 @@
+body {
+  padding-top: 40px;
+}
+
+#examples-body {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background-image: url('img/corporate.jpg');
+  background-size: 100%;
+}
+
+/* Custom container */
+.container h3 {
+  color: black;
+}
+
+.container .sample {
+  font-size: 20px;
+}
+
+.examples {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.resume {
+  width: 100%;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
+}

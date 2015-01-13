@@ -1,0 +1,67 @@
+/*Custom Styles*/
+
+.jumbotron {
+	background-image: url(../../img/coffee.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	height: 500px;
+	color: #fff;
+	margin: 0;
+	/*margin-top: -20px;*/
+}
+
+.navbar-inverse { 
+	background-color: #fff;
+}
+.navbar-static-top {
+	border-width: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #fff;
+	background-color: #080808;
+}
+
+.navbar-inverse .navbar-brand, 
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: #428bca;
+}
+
+.navbar-toggle {
+	border-radius: 0px;
+	border: none;
+	color: #428bca;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #428bca;
+}
+
+.btn {
+	border-radius: 1.5px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 980px) {
+	.jumbotron {
+		margin-top: -20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.jumbotron {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.jumbotron {
+		padding: 0px;
+	}
+}
+.featurette-divider {
+	margin: 40px 0;
+}
