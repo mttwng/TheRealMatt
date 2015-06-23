@@ -32,7 +32,7 @@
 			  // Tell them to use a desktop
 			  if (winW < 768) {
 			  	$( "#secondary" ).empty();
-			  	$( "#add_me" ).append("<em>try using a desktop<br><a href='https://www.linkedin.com/in/mttwng' target='_blank'>Linkedin</a><br><a href='mailto:therealmattwong@gmail.com'>Email</a><br><a href='img/Resume_Matthew_Wong.pdf' target='_blank'>Résumé</a></em>");
+			  	$( "#add_me" ).append("<a href='https://www.linkedin.com/in/mttwng' style='color:#1478bb' target='_blank'>Linkedin</a><br><a href='img/Resume_Matthew_Wong.pdf' style='color:#1478bb' target='_blank'>Résumé</a>");
 			  }
 			  
 		}, 800);
