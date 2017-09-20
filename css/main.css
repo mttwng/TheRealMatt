@@ -101,11 +101,6 @@ main {
 	width: 100%;
 }
 
-#secondary, #add_me {
-    font-size: 30px;
-    color: #666;
-}
-
 /* Slide 1 */
 #slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
 
@@ -152,6 +147,15 @@ main {
   .hsContent.text-left {
     text-align: left;
     padding: 0 20%;
+  }
+  #secondary, #add_me {
+    color: #666;
+  }
+  #secondary {
+    font-size: 30px;
+  }
+  #add_me {
+    font-size: 22px;
   }
 
 	.hsContent h2,
@@ -338,6 +342,9 @@ main {
 @media (max-width: 767px) {
     .hsContent {
         text-align: initial;
+    }
+    .hsContent.text-left {
+      padding: 0 5%;
     }
 }
 
